@@ -1,0 +1,6 @@
+V3 3
+FL "C:/Sistemas Digitais/lab1/ula2bits.vhd" 2022/07/07.09:58:48 P.20131013
+EN work/ula2bits 1657198733 FL "C:/Sistemas Digitais/lab1/ula2bits.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ula2bits/Behavioral 1657198734 \
+      FL "C:/Sistemas Digitais/lab1/ula2bits.vhd" EN work/ula2bits 1657198733

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jul 07 09:15:51 2022
+# Process ID: 3552
+# Log file: C:/Sistemas Digitais/lab1/planAhead_run_4/planAhead.log
+# Journal file: C:/Sistemas Digitais/lab1/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Sistemas Digitais/lab1/pa.fromNetlist.tcl}
