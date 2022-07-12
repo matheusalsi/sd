@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula2bits.ucf -p xc3s100e-cp132-5 "ula2bits.ngc" ula2bits.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ula2bits_map.ncd ula2bits.ngd ula2bits.pcf 
+par -w -intstyle ise -ol high -t 1 ula2bits_map.ncd ula2bits.ncd ula2bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula2bits.twx ula2bits.ncd -o ula2bits.twr ula2bits.pcf -ucf ula2bits.ucf 
+bitgen -intstyle ise -f ula2bits.ut ula2bits.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula2bits.ucf -p xc3s100e-cp132-5 "ula2bits.ngc" ula2bits.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ula2bits_map.ncd ula2bits.ngd ula2bits.pcf 
+par -w -intstyle ise -ol high -t 1 ula2bits_map.ncd ula2bits.ncd ula2bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula2bits.twx ula2bits.ncd -o ula2bits.twr ula2bits.pcf -ucf ula2bits.ucf 
+bitgen -intstyle ise -f ula2bits.ut ula2bits.ncd 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+xst -intstyle ise -ifn "C:/Sistemas Digitais/lab1/ula2bits.xst" -ofn "C:/Sistemas Digitais/lab1/ula2bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ula2bits.ucf -p xc3s100e-cp132-5 "ula2bits.ngc" ula2bits.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ula2bits_map.ncd ula2bits.ngd ula2bits.pcf 
+par -w -intstyle ise -ol high -t 1 ula2bits_map.ncd ula2bits.ncd ula2bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ula2bits.twx ula2bits.ncd -o ula2bits.twr ula2bits.pcf -ucf ula2bits.ucf 
+bitgen -intstyle ise -f ula2bits.ut ula2bits.ncd 

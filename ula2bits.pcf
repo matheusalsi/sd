@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jul 07 09:59:16 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "saida<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "G12" LEVEL 1;
+COMP "botao" LOCATE = SITE "C11" LEVEL 1;
+COMP "saida<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "saida<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "saida<2>" LOCATE = SITE "P7" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
