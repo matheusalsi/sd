@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-07-07T09:18:11</DateModified>
+  <DateModified>2022-07-22T13:07:41</DateModified>
   <ModuleName>ula2bits</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Sistemas Digitais/lab1/iseconfig/ula2bits.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Sistemas Digitais/lab1\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/source/Github/sd/iseconfig/ula2bits.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/source/Github/sd\</ImplementationReportsDirectory>
   <DateInitialized>2022-07-07T08:48:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
